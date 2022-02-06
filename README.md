@@ -3,4 +3,4 @@
 (Old Backup)
 
 NikeSonar IOS bot.
-MVC / Xamarin
+MVVM / Xamarin
