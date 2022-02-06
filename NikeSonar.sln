@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NikeSonar", "NikeSonar\NikeSonar.csproj", "{571361D4-5F05-4070-86AE-A3D4C08B6018}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		Ad-Hoc|iPhoneSimulator = Ad-Hoc|iPhoneSimulator
+		AppStore|iPhone = AppStore|iPhone
+		AppStore|iPhoneSimulator = AppStore|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Ad-Hoc|iPhoneSimulator
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.Ad-Hoc|iPhoneSimulator.Build.0 = Ad-Hoc|iPhoneSimulator
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.Debug|iPhone.ActiveCfg = Debug|iPhoneSimulator
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.Debug|iPhone.Build.0 = Debug|iPhoneSimulator
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.Release|iPhone.ActiveCfg = Debug|iPhoneSimulator
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.Release|iPhone.Build.0 = Debug|iPhoneSimulator
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{571361D4-5F05-4070-86AE-A3D4C08B6018}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

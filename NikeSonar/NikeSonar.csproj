@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{571361D4-5F05-4070-86AE-A3D4C08B6018}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>NikeSonar</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>NikeSonar</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchDebug>True</MtouchDebug>
+    <MtouchSdkVersion>8.1</MtouchSdkVersion>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchExtraArgs />
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchEnableGenericValueTypeSharing>True</MtouchEnableGenericValueTypeSharing>
+    <MtouchArch>Default, ARMv7</MtouchArch>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchDebug>True</MtouchDebug>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchSdkVersion>8.1</MtouchSdkVersion>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchExtraArgs />
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchEnableGenericValueTypeSharing>True</MtouchEnableGenericValueTypeSharing>
+    <MtouchArch>Default, ARMv7</MtouchArch>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignProvision>
+    </CodesignProvision>
+    <CodesignEntitlements />
+    <CodesignResourceRules />
+    <CodesignExtraArgs />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <BuildIpa>True</BuildIpa>
+    <CodesignProvision>1b946dae-294e-4553-af68-cb1556ed41b0</CodesignProvision>
+    <CodesignEntitlements />
+    <CodesignResourceRules />
+    <CodesignExtraArgs />
+    <MtouchSdkVersion />
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchExtraArgs />
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchEnableGenericValueTypeSharing>True</MtouchEnableGenericValueTypeSharing>
+    <MtouchArch>Default, ARMv7</MtouchArch>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <MtouchOptimizePNGs>True</MtouchOptimizePNGs>
+    <MtouchI18n />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignProvision>500f8a71-ba27-4501-990d-9ede3098284a</CodesignProvision>
+    <CodesignEntitlements />
+    <CodesignResourceRules />
+    <CodesignExtraArgs />
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>NikeSonar.Application</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="classes\AddToCartResult.cs" />
+    <Compile Include="classes\ApiLogin.cs" />
+    <Compile Include="classes\Cheatsheet.cs" />
+    <Compile Include="classes\Crypto.cs" />
+    <Compile Include="classes\Functions.cs" />
+    <Compile Include="classes\HTTP.cs" />
+    <Compile Include="classes\LoginResponseCodes.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="classes\AppDelegate.cs" />
+    <Compile Include="classes\RootTableSource.cs" />
+    <Compile Include="classes\SonarSettings.cs" />
+    <Compile Include="classes\Task.cs" />
+    <Compile Include="classes\TaskCell.cs" />
+    <Compile Include="classes\TwitterMoniter.cs" />
+    <Compile Include="classes\UrlHelper.cs" />
+    <Compile Include="classes\ViewControllers.cs" />
+    <Compile Include="viewcontrollers\AddAccountsViewController.cs" />
+    <Compile Include="viewcontrollers\AddAccountsViewController.designer.cs">
+      <DependentUpon>AddAccountsViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcontrollers\AdvcancedSettingsVeiwController.cs" />
+    <Compile Include="viewcontrollers\AdvcancedSettingsVeiwController.designer.cs">
+      <DependentUpon>AdvcancedSettingsVeiwController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcontrollers\BotRunningViewController.cs" />
+    <Compile Include="viewcontrollers\BotRunningViewController.designer.cs">
+      <DependentUpon>BotRunningViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcontrollers\LoginViewController.cs" />
+    <Compile Include="viewcontrollers\LoginViewController.designer.cs">
+      <DependentUpon>LoginViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcontrollers\MainViewController.cs" />
+    <Compile Include="viewcontrollers\MainViewController.designer.cs">
+      <DependentUpon>MainViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcontrollers\ParentController.cs" />
+    <Compile Include="viewcontrollers\ParentController.designer.cs">
+      <DependentUpon>ParentController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcontrollers\PresetViewController.cs" />
+    <Compile Include="viewcontrollers\PresetViewController.designer.cs">
+      <DependentUpon>PresetViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcontrollers\RapidCheckoutViewController.cs" />
+    <Compile Include="viewcontrollers\RapidCheckoutViewController.designer.cs">
+      <DependentUpon>RapidCheckoutViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcontrollers\TaskDetailViewController.cs" />
+    <Compile Include="viewcontrollers\TaskDetailViewController.designer.cs">
+      <DependentUpon>TaskDetailViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewcontrollers\TwitterMoniterViewController.cs" />
+    <Compile Include="viewcontrollers\TwitterMoniterViewController.designer.cs">
+      <DependentUpon>TwitterMoniterViewController.cs</DependentUpon>
+    </Compile>
+    <None Include="Info.plist" />
+    <Compile Include="classes\NetResult.cs" />
+    <Compile Include="classes\Nike.cs" />
+    <Compile Include="classes\NikeStoreAccounts.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <InterfaceDefinition Include="MainStoryboard.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icon-60%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AlertCenter.IOS">
+      <HintPath>libs\AlertCenter.IOS.dll</HintPath>
+    </Reference>
+    <Reference Include="AlertView">
+      <HintPath>libs\AlertView.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac">
+      <HintPath>libs\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Blounty.SlideDownMenu">
+      <HintPath>..\Components\slide-down-menu-1.1\lib\ios\Blounty.SlideDownMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks">
+      <HintPath>libs\Microsoft.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions">
+      <HintPath>libs\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions.Desktop">
+      <HintPath>libs\Microsoft.Threading.Tasks.Extensions.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLWebUtility">
+      <HintPath>libs\PCLWebUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>libs\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>libs\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="Tweetinvi">
+      <HintPath>libs\Tweetinvi.dll</HintPath>
+    </Reference>
+    <Reference Include="Tweetinvi.Controllers">
+      <HintPath>libs\Tweetinvi.Controllers.dll</HintPath>
+    </Reference>
+    <Reference Include="Tweetinvi.Core">
+      <HintPath>libs\Tweetinvi.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Tweetinvi.Credentials">
+      <HintPath>libs\Tweetinvi.Credentials.dll</HintPath>
+    </Reference>
+    <Reference Include="Tweetinvi.Factories">
+      <HintPath>libs\Tweetinvi.Factories.dll</HintPath>
+    </Reference>
+    <Reference Include="Tweetinvi.Logic">
+      <HintPath>libs\Tweetinvi.Logic.dll</HintPath>
+    </Reference>
+    <Reference Include="Tweetinvi.Security">
+      <HintPath>libs\Tweetinvi.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Tweetinvi.Streams">
+      <HintPath>libs\Tweetinvi.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="Tweetinvi.WebLogic">
+      <HintPath>libs\Tweetinvi.WebLogic.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\added.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\Bad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\bot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\grad-bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\icon-security.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\login-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\Missing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\Nikelid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\Ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\twitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\twitter_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\branding\appicon-120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="images\branding\grad-bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="slide-down-menu">
+      <Visible>False</Visible>
+      <Version>1.1</Version>
+    </XamarinComponentReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+</Project>
